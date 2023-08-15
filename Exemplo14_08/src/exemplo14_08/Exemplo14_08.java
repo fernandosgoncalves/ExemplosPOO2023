@@ -21,14 +21,7 @@ public class Exemplo14_08 {
      */
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
-        Scanner lerString = new Scanner(System.in);
-        
-        String teste;
-        
-        teste = lerString.nextLine();
-        
-        System.out.println(teste);
-        
+                
         int x, y;
         
         System.out.println("Informe o primeiro numero: ");
