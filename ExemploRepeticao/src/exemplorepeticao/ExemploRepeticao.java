@@ -52,8 +52,8 @@ public class ExemploRepeticao {
         
         while (w < 105){
             System.out.println(w);
-            if(w == 45)
-                break;
+            //if(w == 45)
+            //    break;
             if(w%10 == 0){
                 w++;
                 continue;

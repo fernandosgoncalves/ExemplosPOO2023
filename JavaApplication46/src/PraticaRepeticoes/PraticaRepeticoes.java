@@ -35,6 +35,18 @@ public class PraticaRepeticoes {
         if(aux == 0)
             System.out.println("Valor nao encontrado na lista!");
        
+        //-------------------------
+        
+        int numero;
+        
+        System.out.println("Informe um numero:");
+        numero = ler.nextInt();
+        
+        while (numero > 0){
+            numero--;
+            System.out.println(numero);
+        }
+        
     }
     
 }
