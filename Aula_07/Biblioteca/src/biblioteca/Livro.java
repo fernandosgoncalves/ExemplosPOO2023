@@ -10,16 +10,20 @@ package biblioteca;
  * @author professor
  */
 public class Livro {
+    //Classe que armazena as informações do livro
+    //Atributos do livro
     public String isbn;
     public String titulo;
     public String autor;
     public String genero;
     public int status;
     
+    //Construtor da classe
     public Livro(){
         status = 0;
     }
     
+    //Método para cadastro de dados um livro
     public void cadastro(String cod, String t, String a, String g, int s){
         isbn = cod;
         titulo = t;
@@ -28,6 +32,7 @@ public class Livro {
         status = s;
     }
     
+    //Método para exibir as informações
     public void mostrar(){
         System.out.println("ISBN: " + isbn);
         System.out.println("Título: " + titulo);
@@ -36,6 +41,7 @@ public class Livro {
         System.out.println("Status: " + status);
     }
     
+    //Método para empréstimo do livro
     public void emprestimo(){
         if(status == 1)
             System.out.println("Livro indisponível!");
@@ -45,6 +51,7 @@ public class Livro {
         }
     }
     
+    //Método para devolução
     public void devolucao(){
         status = 0;
         System.out.println("Livro devolvido com sucesso!");
