@@ -44,7 +44,6 @@ public class ExercicioProdutos {
         System.out.println("Saldo p1: " + p1.getSaldo());
         System.out.println("Subtotal p2: " + subtotal);
         
-        
     }
     
 }
